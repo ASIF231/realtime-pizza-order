@@ -32,3 +32,35 @@ section.hero {
         color: $pure;
     }
 }
+.btn-primary {
+    background: $primary !important;
+    transition: $smooth;
+    &:hover {
+        background: $primary-hover !important;
+    }
+}
+
+section.cart {
+    background: $secondary;
+    .amount {
+        color: $primary;
+    }
+}
+section.login {
+    color: $secondary !important;
+    a {
+        color: $primary !important;
+        &:hover {
+            color: $primary-hover;
+        }
+    }
+    input {
+        
+        &:focus {
+            border-color: $primary; 
+        }
+    }
+}
+
+
+
